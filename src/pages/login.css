@@ -1,0 +1,8 @@
+.card-div{
+    background-color: #1f2937 ;
+    padding: 1rem;
+    border-radius: .5rem;
+    display: flex;
+    flex-direction: column;
+}
+
