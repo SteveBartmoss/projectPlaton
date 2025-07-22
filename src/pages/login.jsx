@@ -1,6 +1,14 @@
+import { useNavigate } from 'react-router-dom'
 import './login.css'
 
 export function Login(){
+
+    const navigate = useNavigate();
+
+    const handleLogin=()=>{
+        navigate('home')
+    }
+
     return(
         <div className='card-div'>
             <div>
@@ -13,7 +21,7 @@ export function Login(){
                 <input type="password" />
             </div>
             <div>
-                <button>login</button>
+                <button onClick={handleLogin}>login</button>
             </div>
         </div>
     )
