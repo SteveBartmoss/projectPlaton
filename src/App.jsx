@@ -3,12 +3,23 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import { Login } from './pages/login'
+import { MainRouter } from './routes/MainRouter'
 
 function App() {
 
   return (
     <>
-      <div>
+      <MainRouter />
+    </>
+  )
+}
+
+export default App
+
+/*
+
+
+<div>
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
@@ -23,8 +34,5 @@ function App() {
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
-    </>
-  )
-}
 
-export default App
+*/
