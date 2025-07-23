@@ -1,0 +1,9 @@
+.div-app-layout{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    min-width: 0;   
+    border: 2px solid red;
+    overflow: hidden;
+}
