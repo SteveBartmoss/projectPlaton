@@ -1,11 +1,12 @@
+import { AppLayout } from "../components/layout/appLayout";
 
 
 export function Home(){
     return(
         <>
-            <div>
+            <AppLayout>
                 <h1>Home XD</h1>
-            </div>
+            </AppLayout>
         </>
     )
 }
