@@ -7,7 +7,6 @@ import { NavBar } from "../components/navbar/navBar";
 export function AppRouter() {
     return (
         <>
-            <NavBar />
             <Routes>
                 <Route path="home" element={<Home />} />
                 <Route path="*" element={<NotFound />} />
