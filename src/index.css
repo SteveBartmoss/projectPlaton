@@ -56,10 +56,3 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
-
-.div-row-template{
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  flex-direction: row;
-}
