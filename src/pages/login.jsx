@@ -7,7 +7,7 @@ export function Login(){
     const navigate = useNavigate();
 
     const handleLogin=()=>{
-        navigate('home')
+        navigate('/home', {replace: true})
     }
 
     return(
